@@ -5,7 +5,7 @@ function updateClock() {
         hour: "2-digit",
         minute: "2-digit",
     });
-    document.getElementById("clock").tectContent = time;
+    document.getElementById("clock").textContent = time;
 }
 
 updateClock();
